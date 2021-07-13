@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/ResponseStatus.msg
   msg/DoorStatus.msg
   srv/Engage.srv
+  srv/GetVersion.srv
   srv/SetDoor.srv
   srv/SetEmergency.srv
   DEPENDENCIES
