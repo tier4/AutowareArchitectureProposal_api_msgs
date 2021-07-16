@@ -18,13 +18,18 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/ClassifiedDiagnostics.msg
   msg/ResponseStatus.msg
   msg/DoorStatus.msg
+  msg/Route.msg
+  msg/RouteSection.msg
   srv/Engage.srv
   srv/GetVersion.srv
   srv/SetDoor.srv
   srv/SetEmergency.srv
+  srv/SetPose.srv
+  srv/SetRoute.srv
   DEPENDENCIES
     builtin_interfaces
     diagnostic_msgs
+    geometry_msgs
 )
 
 if(BUILD_TESTING)
