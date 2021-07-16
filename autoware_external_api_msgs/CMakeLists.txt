@@ -15,6 +15,7 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  msg/ClassifiedDiagnostics.msg
   msg/ResponseStatus.msg
   msg/DoorStatus.msg
   srv/Engage.srv
@@ -23,6 +24,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   srv/SetEmergency.srv
   DEPENDENCIES
     builtin_interfaces
+    diagnostic_msgs
 )
 
 if(BUILD_TESTING)
