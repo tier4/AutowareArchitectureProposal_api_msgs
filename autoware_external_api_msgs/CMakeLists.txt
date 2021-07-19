@@ -20,6 +20,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/DoorStatus.msg
   msg/Route.msg
   msg/RouteSection.msg
+  srv/ClearRoute.srv
   srv/Engage.srv
   srv/GetVersion.srv
   srv/SetDoor.srv
