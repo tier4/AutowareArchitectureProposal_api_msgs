@@ -23,10 +23,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   srv/ClearRoute.srv
   srv/Engage.srv
   srv/GetVersion.srv
+  srv/PauseDriving.srv
   srv/SetDoor.srv
   srv/SetEmergency.srv
   srv/SetPose.srv
   srv/SetRoute.srv
+  srv/SetVelocityLimit.srv
   DEPENDENCIES
     builtin_interfaces
     diagnostic_msgs
