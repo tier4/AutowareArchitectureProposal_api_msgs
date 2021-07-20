@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/ClassifiedDiagnostics.msg
   msg/ResponseStatus.msg
   msg/DoorStatus.msg
+  msg/EngageStatus.msg
   msg/Route.msg
   msg/RouteSection.msg
   srv/ClearRoute.srv
