@@ -17,6 +17,8 @@ ament_auto_find_build_dependencies()
 rosidl_generate_interfaces(${PROJECT_NAME}
   msg/ClassifiedDiagnostics.msg
   msg/DoorStatus.msg
+  msg/Observer.msg
+  msg/Operator.msg
   msg/EngageStatus.msg
   msg/MapHash.msg
   msg/ResponseStatus.msg
@@ -27,6 +29,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   srv/GetVersion.srv
   srv/PauseDriving.srv
   srv/SetDoor.srv
+  srv/SetObserver.srv
+  srv/SetOperator.srv
   srv/SetEmergency.srv
   srv/SetPose.srv
   srv/SetRoute.srv
