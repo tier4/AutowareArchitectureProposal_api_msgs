@@ -27,6 +27,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   srv/ClearRoute.srv
   srv/Engage.srv
   srv/GetVersion.srv
+  srv/InitializePose.srv
+  srv/InitializePoseAuto.srv
   srv/PauseDriving.srv
   srv/SetDoor.srv
   srv/SetObserver.srv
