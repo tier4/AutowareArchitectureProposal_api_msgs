@@ -24,6 +24,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/ResponseStatus.msg
   msg/Route.msg
   msg/RouteSection.msg
+  msg/Service.msg
   srv/ClearRoute.srv
   srv/Engage.srv
   srv/GetVersion.srv
@@ -36,6 +37,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   srv/SetEmergency.srv
   srv/SetPose.srv
   srv/SetRoute.srv
+  srv/SetService.srv
   srv/SetVelocityLimit.srv
   DEPENDENCIES
     builtin_interfaces
