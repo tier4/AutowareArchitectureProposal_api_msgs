@@ -16,15 +16,22 @@ ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   msg/ClassifiedDiagnostics.msg
+  msg/ControlCommand.msg
+  msg/ControlCommandStamped.msg
   msg/DoorStatus.msg
   msg/Observer.msg
   msg/Operator.msg
   msg/EngageStatus.msg
+  msg/GearShift.msg
+  msg/GearShiftStamped.msg
+  msg/Heartbeat.msg
   msg/MapHash.msg
   msg/ResponseStatus.msg
   msg/Route.msg
   msg/RouteSection.msg
   msg/Service.msg
+  msg/TurnSignal.msg
+  msg/TurnSignalStamped.msg
   srv/ClearRoute.srv
   srv/Engage.srv
   srv/GetVersion.srv
