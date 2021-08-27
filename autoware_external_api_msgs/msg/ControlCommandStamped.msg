@@ -1,2 +1,2 @@
 builtin_interfaces/Time stamp
-ControlCommand control
+autoware_external_api_msgs/ControlCommand control

@@ -1,2 +1,2 @@
 builtin_interfaces/Time stamp
-GearShift gear_shift
+autoware_external_api_msgs/GearShift gear_shift

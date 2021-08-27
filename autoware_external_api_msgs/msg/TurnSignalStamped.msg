@@ -1,2 +1,2 @@
 builtin_interfaces/Time stamp
-TurnSignal turn_signal
+autoware_external_api_msgs/TurnSignal turn_signal
