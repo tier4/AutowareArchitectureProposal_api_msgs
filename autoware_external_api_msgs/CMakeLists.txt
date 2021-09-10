@@ -33,6 +33,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/Steering.msg
   msg/TurnSignal.msg
   msg/TurnSignalStamped.msg
+  msg/VehicleCommand.msg
+  msg/VehicleCommandStamped.msg
   msg/VehicleStatus.msg
   msg/VehicleStatusStamped.msg
   srv/ClearRoute.srv
