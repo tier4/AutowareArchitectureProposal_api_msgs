@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 env:
-  BASE_BRANCH: main
-  SYNC_TARGET_BRANCH: main
+  BASE_BRANCH: develop
+  SYNC_TARGET_BRANCH: develop
   SYNC_TARGET_REPOSITORY: https://github.com/tier4/AutowareArchitectureProposal_api_msgs.git
 
 jobs:
