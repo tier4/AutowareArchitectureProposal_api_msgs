@@ -22,6 +22,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/Observer.msg
   msg/Operator.msg
   msg/EngageStatus.msg
+  msg/FailSafeState.msg
+  msg/FailSafeStateStamped.msg
   msg/GearShift.msg
   msg/GearShiftStamped.msg
   msg/Heartbeat.msg
